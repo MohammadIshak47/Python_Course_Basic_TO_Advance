@@ -62,4 +62,8 @@ iii) First letter cannot be a digit
  a = 'Bangladesh' # bangladessh is string literals
  b = 123 ## here 123 is numerical literals
 
+
+### String : strings are sequence of characters enclose within single qutoes(''), double qutoes(""
+# or   triple qutoes(''' '''))
+
 """
