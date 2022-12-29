@@ -66,4 +66,26 @@ iii) First letter cannot be a digit
 ### String : strings are sequence of characters enclose within single qutoes(''), double qutoes(""
 # or   triple qutoes(''' '''))
 
+#### Data Structures in python : 1.Tuple 2.List 3. Set 4.Dictionary
+
+1.Tuples : tuple is an ordered collection of elements enclosed with () .Tuples are immutable means
+unchangeable . Once we create tuple . We cannot change inside of tuple values .
+We can access every value of tuples like a[0].
+
+2. List : list is an ordered collection of elements enclosed with [] . it is mutable . That means
+it is changeable . like a[0] = 'bangladesh' . values inside list is changeable.
+
+
+
+3.Dictionary : dictionary is an unordered collection of key-value pairs enclosed with {}
+it is mutable, means it is changeable . We can change  the inside of the value of dictionary.
+
+4. Set : set is an unordered and unindexed collection of elements enclosed with {}
+Duplicates value are not ordered in set .
+
+
+#### Loop : looping statements are used to repeat a task multiple times
+For loop is used to iterate over a sequence(tuple,list,dictionary...) 
+
+
 """
