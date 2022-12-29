@@ -42,5 +42,24 @@ step_04 : Add sugar and stir it well
 step_05 : serve it cold with ice cubes
 
 
+#### Python Tokens__python tokens is a smallest meaningful component in a program.There 
+# are 4 types of tokens in python . such as _
+1.Keywords
+2.Identifiers
+3. Literals
+4.Operators ( +,-,*,/)
+
+1. Keywords: Keywords are special reserved words . We cannot write Keywords as a variable .
+ Example : class , def True , False ,and ,or ,not Yield, with ,while etc. 
+
+2 . Identifiers :  Identifiers are names used for variables ,functions or objet .Rules__
+
+i) No special character expect _(underscore)
+ii) Identifiers are case sensative 
+iii) First letter cannot be a digit
+
+3 . Literals : Literals are constants in python .Constants don't change . Example
+ a = 'Bangladesh' # bangladessh is string literals
+ b = 123 ## here 123 is numerical literals
 
 """
