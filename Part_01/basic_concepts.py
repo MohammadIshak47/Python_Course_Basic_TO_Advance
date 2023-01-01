@@ -88,4 +88,129 @@ Duplicates value are not ordered in set .
 For loop is used to iterate over a sequence(tuple,list,dictionary...) 
 
 
+
+### string manipulation
+a = 'Welcome to Beautiful Bangladesh . Nice to meet you everyone'
+print(a.split(" ")) ## Here spilt method will separte in a list
+
+print(a.replace('Bangladesh', 'village which name is Joarhamsadi'))
+
+l1 = 'Hey'
+l2 = 'there'
+l3 = 'All'
+
+# print(l1+ " " + l2 + ", " +  l3 +"!") ## Here it will print Hey there, All!
+print('{} {}, {}!'.format(l1,l2,l3)) ## Here it will print Hey there, All!
+print(f"{l1} {l2}, {l3}!") ## Here it will print Hey there, All!
+
 """
+
+####nested dictionary
+
+# a = {'name':'Mohammad Ishak','gender':'Male','education':{'ssc':'2014','Hsc':'2016'},'age':'26'}
+
+# # a[0] = 'Name'
+# # print(a[0])
+
+# print(a.pop('name'))
+# print(a)
+# print(a.popitem())
+# print(a)
+
+### Nested if 
+
+# a = int(input("Enter your expected number:  "))
+
+# if a<30:
+#     if a%2==0:
+#         print(a," is an even number and less than 30")
+#     else:
+#         print(a," is an odd number and  less than 30")    
+# else:
+#     print(a," is greater than 30")        
+
+### findout vowel consonant
+
+# a = input("Enter your character : ")
+
+# if a in 'aeiouAEIOU':
+#     print(a,'is vowel')
+# else:
+#     print(a,'is consonant')    
+
+### Loop
+
+# num = int(input("Enter multiple of 7 is "))
+
+# while num%7!=0:
+#     num = int(input("Enter multiple of 7 again is "))
+
+# else:
+#     print(num,"is multiple of 7 ")
+
+
+#### matrix in nested loop
+
+# matrix = [[1,2,3],[5,6,6]]
+
+# for i in matrix:
+#     for j in i:
+#         print(j, end=' ') ## end = ' ' it remove spaces and by using it will not to able go to new line
+
+#     print()    
+
+### break statement
+
+# string_word = ('Bangladesh is our motherland. We live in here')
+
+# for i in string_word:
+#     if i == '.': ## it find full-stop(.) if will be break and print before statement
+#         break
+#     print(i, end='')
+
+
+### continue statement
+
+# for i in [1,2,30,3,5,13,12,9] :
+#     if i>12:
+#         continue
+#     print(i,end=',')
+
+#### For loop
+
+## suppose we will enter number 5 and it will show as:
+#1
+##12
+#123
+#12345
+
+# n = int(input("Enter your number : "))
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end= '')
+#     print()    
+
+
+### While loop
+## 1 to 10 number summation is 55
+# i = 1
+# sum = 0
+
+# while i<=10:
+#     sum = sum+i
+#     i+= 1
+# print(sum)    
+
+## Now 1 to 10 only even number summation will be 30 
+
+i = 1
+sum = 0
+while i<=10:
+    if i%2 == 0:
+        sum = sum+i
+    i+=1
+
+print(sum)
+
+
