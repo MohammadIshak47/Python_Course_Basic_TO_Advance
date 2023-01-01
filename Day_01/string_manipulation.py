@@ -14,8 +14,6 @@ b = input("b : ")
 print("a :",b)
 print("b :",a)
 
-'''
-
 #### simple string project
 ## problem : Creating your greeting for your program
 ## Ask the user for the city name where they grew up in
@@ -31,6 +29,15 @@ pet_name = input("What's your pet name?\n")
 print("Your brand name could be ",city_name,pet_name)
 
 
+'''
+
+# print("Hello brother , My name is \"Mohammad Ishak\".Are you ready to jump the race.")
+
+# print("Bangladesh", "is", "our","motherland", sep='~') ## by using sep='~' it 
+## will be separted word by word into ~ this symbol.
+
+print('Ishak','Faisal','Rasel','Irfan','Anas', end='00')
+ 
 
 
 
