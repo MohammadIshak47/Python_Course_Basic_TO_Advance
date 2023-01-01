@@ -204,13 +204,17 @@ print(f"{l1} {l2}, {l3}!") ## Here it will print Hey there, All!
 
 ## Now 1 to 10 only even number summation will be 30 
 
-i = 1
-sum = 0
-while i<=10:
-    if i%2 == 0:
-        sum = sum+i
-    i+=1
+# i = 1
+# sum = 0
+# while i<=10:
+#     if i%2 == 0:
+#         sum = sum+i
+#     i+=1
 
-print(sum)
+# print(sum)
+
+print("Day-1 Python Print Function\n,The function is declared like this:\n What to print?")
+
+
 
 
