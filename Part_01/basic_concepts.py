@@ -213,7 +213,21 @@ print(f"{l1} {l2}, {l3}!") ## Here it will print Hey there, All!
 
 # print(sum)
 
-print("Day-1 Python Print Function\n,The function is declared like this:\n What to print?")
+# print("Day-1 Python Print Function\n,The function is declared like this:\n What to print?")
+
+### Function : 
+
+# def numbers(*a):
+#     total = 0
+#     for i in a:
+#         total = total+i
+#     return total    
+    
+ 
+
+
+# print(numbers(2,3,4,5,5,6))
+
 
 
 

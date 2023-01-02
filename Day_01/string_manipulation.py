@@ -36,7 +36,8 @@ print("Your brand name could be ",city_name,pet_name)
 # print("Bangladesh", "is", "our","motherland", sep='~') ## by using sep='~' it 
 ## will be separted word by word into ~ this symbol.
 
-print('Ishak','Faisal','Rasel','Irfan','Anas', end='00')
+# print('Ishak','Faisal','Rasel','Irfan','Anas', end='00')
+
  
 
 
