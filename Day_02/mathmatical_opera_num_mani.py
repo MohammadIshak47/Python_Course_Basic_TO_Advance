@@ -53,10 +53,10 @@ BMI formula = weight (kg) / [height (m)]2  means height**2
 
 '''
 
-person_weight  = int(input("Enter your weight : "))
-person_height =  int(input("Enter your height : "))
+person_weight  = input("Enter your weight : ")
+person_height =  input("Enter your height : ")
 
-persons_total_measurement = (person_weight)/(person_height**2)
+persons_total_measurement = int((person_weight)/(person_height**2))
 
 print("Person Measuremnt is : ",persons_total_measurement)
 
