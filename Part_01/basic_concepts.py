@@ -103,7 +103,6 @@ l3 = 'All'
 print('{} {}, {}!'.format(l1,l2,l3)) ## Here it will print Hey there, All!
 print(f"{l1} {l2}, {l3}!") ## Here it will print Hey there, All!
 
-"""
 
 ####nested dictionary
 
@@ -231,29 +230,82 @@ print(f"{l1} {l2}, {l3}!") ## Here it will print Hey there, All!
 
 ### class
 
-class Person:
+# class Person:
 
-    def __init__(self,name,gender,age):
-        self.name = name
-        self.gender = gender
-        self.age = age
+#     def __init__(self,name,gender,age):
+#         self.name = name
+#         self.gender = gender
+#         self.age = age
 
-    def talk(self):
-        return f"Hi, I am {self.name}"
-    def vote(self):
-        if self.age>=18:
-            print("You are allow to vote")
-        else:
-            print("You are not allowed to vote")
-
-
-
-person1 = Person('Mohammad Ishak', 'male', 18)
-person2 = Person('Ayisha', 'Female', 2)
+#     def talk(self):
+#         return f"Hi, I am {self.name}"
+#     def vote(self):
+#         if self.age>=18:
+#             print("You are allow to vote")
+#         else:
+#             print("You are not allowed to vote")
 
 
-print(person1.talk())
-print(person2.vote())
+
+# person1 = Person('Mohammad Ishak', 'male', 18)
+# person2 = Person('Ayisha', 'Female', 2)
+
+
+# print(person1.talk())
+# print(person2.vote())
+
+
+## Thread
+
+# from threading import*
+
+# def show():
+#     print("This is a child thread")
+
+# t = Thread(target=show())
+# t.start()
+# print("This a parent thread")
+
+"""
+
+### Python Scripting
+
+# import os
+
+# def current_directory():
+#     cwd = os.getcwd()
+#     print(cwd)
+
+# def file_path(filename):
+#     path = os.path.abspath(filename)
+#     print(path)
+
+# current_directory()
+# filename = 'sample.txt'
+# file_path(filename)
+
+
+####
+
+# import time
+
+# epc = time.time()
+# print(epc)
+# localtime  = time.localtime(epc)
+# print(localtime)
+# print(localtime.tm_year)
+# print(time.ctime(epc))
+
+
+#### Send email using smtp
+
+import smtplib
+smtobject = smtplib.SMTP('smtp.gmail.com',587)
+smtobject.ehlo()
+smtobject.starttls()
+smtobject.login('ishak1998bd@gmail.com', 'zwmfqzdebrsinjoa')
+smtobject.sendmail('ishak1998bd@gmail.com', 'ishakmiu47@gmail.com', 'Hey, I am Ishak')
+smtobject.quit()
 
 
 
