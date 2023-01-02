@@ -299,13 +299,16 @@ print(f"{l1} {l2}, {l3}!") ## Here it will print Hey there, All!
 
 #### Send email using smtp
 
-import smtplib
-smtobject = smtplib.SMTP('smtp.gmail.com',587)
-smtobject.ehlo()
-smtobject.starttls()
-smtobject.login('ishak1998bd@gmail.com', 'zwmfqzdebrsinjoa')
-smtobject.sendmail('ishak1998bd@gmail.com', 'ishakmiu47@gmail.com', 'Hey, I am Ishak')
-smtobject.quit()
+# import smtplib
+# smtobject = smtplib.SMTP('smtp.gmail.com',587)
+# smtobject.ehlo()
+# smtobject.starttls()
+# smtobject.login('ishak1998bd@gmail.com', 'zwmfqzdebrsinjoa')
+# smtobject.sendmail('ishak1998bd@gmail.com', 'ishakmiu47@gmail.com', 'Hey, I am Ishak')
+# smtobject.quit()
+
+
+
 
 
 
