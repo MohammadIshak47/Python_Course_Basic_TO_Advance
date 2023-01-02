@@ -229,6 +229,32 @@ print(f"{l1} {l2}, {l3}!") ## Here it will print Hey there, All!
 # print(numbers(2,3,4,5,5,6))
 
 
+### class
+
+class Person:
+
+    def __init__(self,name,gender,age):
+        self.name = name
+        self.gender = gender
+        self.age = age
+
+    def talk(self):
+        return f"Hi, I am {self.name}"
+    def vote(self):
+        if self.age>=18:
+            print("You are allow to vote")
+        else:
+            print("You are not allowed to vote")
+
+
+
+person1 = Person('Mohammad Ishak', 'male', 18)
+person2 = Person('Ayisha', 'Female', 2)
+
+
+print(person1.talk())
+print(person2.vote())
+
 
 
 
