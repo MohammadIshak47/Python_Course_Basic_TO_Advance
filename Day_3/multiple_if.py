@@ -335,8 +335,8 @@ choice1 =input("You're at a cross road.Where do you want to go? \"left\" or \"ri
 if choice1== "left":
     choice2 =input("You come to a lake.There is an island in the middle of the road.\nType \"wait\" to wait for a boat.Type \"swim\" to swim across.").lower()
     if choice2 == 'wait':
-        color== input("You arrived at the island unharmed.There is a house with 3 doors.\none red,one yellow,one blue.Which color do you choose? ").lower()
-        if color=='yellow':
+        choice3 =input("You arrived at the island unharmed.There is a house with 3 doors.\none red,one yellow,one blue.Which color do you choose? ").lower()
+        if choice3=='yellow':
             print("Congrats!,You found the treasure .You win.")
         else:
             print("It's a room full of fire .Game over")    
