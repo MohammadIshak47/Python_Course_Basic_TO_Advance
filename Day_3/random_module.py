@@ -20,9 +20,7 @@ or
 
 Tails
 
-
-'''
-
+## Solution :
 ## 1 means Heads and 0 means Tails
 
 import random
@@ -36,4 +34,22 @@ if random_side == 1:
 else:
     print("Tails")    
     
+
+'''
+
+# import random
+
+# random_integer = random.randint(1, 10)
+# print(random_integer)
+
+## float
+import random
+random_float = random.random() ## it will give us value  between 0 to 1 (not 1)
+print(random_float)
+
+randomFloat = random.random()*5
+print(random_float)
+
+love_score = random.randint(1, 100)
+print(f" Your love score is {love_score}")
 
