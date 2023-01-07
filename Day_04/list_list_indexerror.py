@@ -100,9 +100,6 @@ Hint
 
 
 ### Solution :
-
-'''
-
 row1 = ["🔳","🔳","🔳"]
 row2 = ["🔳","🔳","🔳"]
 row3 = ["🔳","🔳","🔳"]
@@ -120,5 +117,13 @@ vertical_position = int(position[1])
 
 map[vertical_position-1][horizontal_position-1] = 'X'
 print(f"{row1}\n{row2}\n{row3}")
+
+
+'''
+
+
+
+### project : Rock paper scissors
+### Solution :
 
 
