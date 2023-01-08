@@ -123,7 +123,73 @@ print(f"{row1}\n{row2}\n{row3}")
 
 
 
-### project : Rock paper scissors
+### project : Rock paper scissors game
+### this game has 3 simple rules: such as_
+## i)Rock wins agianst Scissors
+##ii)Scissors wins angainst Papers
+##iii)Paper wins against Rock
+
 ### Solution :
 
 
+
+import random
+# Rock Paper Scissors ASCII Art
+
+# Rock
+rock = """
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+"""
+
+# Paper
+paper ="""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+"""
+
+# Scissors
+scissors ="""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+"""
+
+game_images = [rock,paper,scissors]
+user_choice = int(input("What do you choice? Type 0 for Rock, 1 for Paper,2 for Scissors.\n"))
+print(game_images[user_choice])
+
+computer_choice = random.randint(0, 2)
+print("Computer choice :")
+print(game_images[computer_choice])
+
+
+if user_choice>=3 and user_choice<0:
+    print("You typed invalid numbers,You lose!")
+
+elif user_choice == 0 and computer_choice ==2:
+    print("You wins!")
+
+elif computer_choice == 2 and user_choice ==0:
+    print("You lose!")
+
+elif computer_choice>user_choice:
+    print("You lose!")
+elif user_choice>computer_choice:
+    print("You win!")    
+elif computer_choice == user_choice:
+    print("It's a draw.")    
+
+
+    
