@@ -39,9 +39,6 @@ Example Output
 
 171
 
-e.g. When you hit run, this is what should happen:
-
-Cannot infer image mime type
 Hint
 
     Remember to use the round() function to round the average height before you print it.
@@ -49,6 +46,20 @@ Hint
 
 '''
 
+## Solution :
+ 
+sum = 0
+student_heights = [180, 124, 165, 173, 189, 169, 146]
+
+
+for i in student_heights:
+    sum = sum+i
+    i+=1
+    average_height = round(sum)
+    
+
+print(sum)
+print(average_height)
 
 
 
