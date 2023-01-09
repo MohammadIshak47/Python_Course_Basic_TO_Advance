@@ -44,23 +44,82 @@ Hint
     Remember to use the round() function to round the average height before you print it.
 
 
-'''
-
 ## Solution :
  
-sum = 0
-student_heights = [180, 124, 165, 173, 189, 169, 146]
+ # student_heights = [180, 124, 165, 173, 189, 169, 146]
+student_heights = input("Input a list of students heights : ").split()
+for n in range(0,len(student_heights)):
+    student_heights[n] = int(student_heights[n])
 
+print(student_heights) ### here print given input as a list
+
+
+sum = 0
+count = 0
 
 for i in student_heights:
     sum = sum+i
-    i+=1
-    average_height = round(sum)
+    count +=1
+    average_height = sum/count
     
 
 print(sum)
-print(average_height)
+print(round(average_height))
 
 
 
+### problem_02:
+
+Instructions
+
+You are going to write a program that calculates the highest score from a List of scores.
+
+e.g. student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
+
+Important you are not allowed to use the max or min functions. The output words must match the example. i.e
+
+    The highest score in the class is: x
+
+Example Input
+
+78 65 89 86 55 91 64 89
+
+In this case, student_scores would be a list that looks like: [78, 65, 89, 86, 55, 91, 64, 89]
+Example Output
+
+The highest score in the class is: 91
+
+Hint
+
+    Think about the logic before writing code. How can you compare numbers against each other to see which one is larger?
+
+
+'''
+
+
+### Solution :
+
+# student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
+
+student_scores = input("Input a list of students scores: ").split()
+
+for n in range(0,len(student_scores)):
+    student_scores[n] = int(student_scores[n])
+
+print(student_scores)
+
+max_numbers = student_scores[0]
+min_numbers = student_scores[0]
+
+for number in student_scores:
+    if number>max_numbers:
+        max_numbers = number
+    if number<min_numbers:
+        min_numbers = number
+
+print(f"The max numbers from the student score list is {max_numbers} ")
+print(f"The min numbers from the student score list is {min_numbers}")
+
+
+    
 
