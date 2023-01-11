@@ -326,3 +326,9 @@ He'S Name Is Dan. Dan Is An Honest Man.
 
 '''
 
+str1 = "bAnCla"
+
+print(str1.upper())
+print(str1.lower())
+print(str1.capitalize())
+print(str1)
