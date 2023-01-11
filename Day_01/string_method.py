@@ -332,3 +332,27 @@ print(str1.upper())
 print(str1.lower())
 print(str1.capitalize())
 print(str1)
+
+str2 = ('Bangladesh is our motherland').split() ## To show list wise every word
+print(str2)
+
+str3 = (" Natural moments  will  come tomorrow !!!!!! ")
+
+print(str3.strip()) ## to remove white spaces
+
+print(str3.rstrip("!")) ## To remove any trailing characters 
+
+print(str3.replace('morrow', 'day'))
+
+str4 = ("Welcome to the console!!!!")
+print(str4.center(50)) ### to center the text
+
+print(str4.center(50,".")) ## left and right will taken dot(.)
+print(str4.count('l'))
+
+print(str4.endswith('!!!!')) ## it will return True because this string ends with !!!!
+print(str4.endswith('the',5,11))
+
+
+
+
