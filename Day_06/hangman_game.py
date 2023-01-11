@@ -1,10 +1,11 @@
 ### Hangman Game
 
-word_list=['ardvark','baboon','camel']
+
 
 ## Todo-1 : Randomly choose a word from word_list and assign it  to a variable 
 # called chosen_word
 import random
+word_list=['ardvark','baboon','camel']
 chosen_word = random.choice(word_list)
 
 
