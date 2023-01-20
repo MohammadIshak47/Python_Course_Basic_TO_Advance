@@ -74,3 +74,15 @@ This loop uses True as its formal condition. This trick turns the loop into an i
 
 
 '''
+
+# i = int(input("Enter your number : "))
+
+# while i<=38:
+#   i = int(input("Again enter your number: "))
+#   print(i)
+
+num  = int(input("Enter your number : "))
+
+while num>0:
+  print(num)
+  num = num-1
