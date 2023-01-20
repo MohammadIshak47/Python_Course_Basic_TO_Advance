@@ -49,3 +49,26 @@ output
 
 '''
 
+### break statement(it means stop the loop followed by condition)
+
+# num = int(input("Enter your number : "))
+
+# for i in range(1,12):
+#     if i>10:
+#         print("Stop the loop")
+#         break
+#     print(f"{num}x{i} = {num*i} ")
+#     i+=1
+
+
+### continue statement skip the iteration followed by condition
+num = int(input("Enter your number : "))
+
+for i in range(1,12):
+    if i==10:
+        print("Skip the iteration")
+        continue
+    print(f"{num}x{i} = {num*i} ")
+    i+=1
+
+   
