@@ -58,7 +58,30 @@ def add(*args):
 add(44,33,34,66)
 print(add())
 
+
+# def CalculateGmean(a,b):
+#     mean = (a*b)/(a+b)
+#     return mean
+
+
+# num1 = int(input("Enter num1 :"))
+# num2 = int(input("Enter num2 :"))
+
+# print(CalculateGmean(num1, num2))
+
+
+def isGreater(a,b):
+    if a>b:
+        print(f"{a} is greater than {b}")
+    else:
+        print(f"{b} is greater than {a}")    
+
+
+print(isGreater(1000, 90))
+
 '''
+
+
 
 
 
