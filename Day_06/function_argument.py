@@ -12,7 +12,8 @@ There are four types of arguments that we can provide in a function:
 
 Default arguments:
 
-We can provide a default value while creating a function. This way the function assumes a default value even if a value is not provided in the function call for that argument.
+We can provide a default value while creating a function. This way the function assumes
+ a default value even if a value is not provided in the function call for that argument.
 
 Example:
 
@@ -27,7 +28,9 @@ Hello, Amy Jhon Whatson
 
 Keyword arguments:
 
-We can provide arguments with key = value, this way the interpreter recognizes the arguments by the parameter name. Hence, the the order in which the arguments are passed does not matter.
+We can provide arguments with key = value, this way the interpreter recognizes the 
+arguments by the parameter name. Hence, the the order in which the arguments are 
+passed does not matter.
 
 Example:
 
@@ -42,9 +45,12 @@ Hello, Jade Peter Wesker
 
 Required arguments:
 
-In case we don’t pass the arguments with a key = value syntax, then it is necessary to pass the arguments in the correct positional order and the number of arguments passed should match with actual function definition.
+In case we don’t pass the arguments with a key = value syntax, then it is necessary to
+ pass the arguments in the correct positional order and the number of arguments passed
+  should match with actual function definition.
 
-Example 1: when number of arguments passed does not match to the actual function definition.
+Example 1: when number of arguments passed does not match to the actual function 
+definition.
 
 def name(fname, mname, lname):
     print("Hello,", fname, mname, lname)
@@ -69,12 +75,14 @@ Hello, Peter Ego Quill
 
 Variable-length arguments:
 
-Sometimes we may need to pass more arguments than those defined in the actual function. This can be done using variable-length arguments.
+Sometimes we may need to pass more arguments than those defined in the actual function.
+ This can be done using variable-length arguments.
 
 There are two ways to achieve this:
 Arbitrary Arguments:
 
-While creating a function, pass a * before the parameter name while defining the function. The function accesses the arguments by processing them in the form of tuple.
+While creating a function, pass a * before the parameter name while defining the 
+function. The function accesses the arguments by processing them in the form of tuple.
 
 Example:
 
@@ -89,7 +97,9 @@ Hello, James Buchanan Barnes
 
 Keyword Arbitrary Arguments:
 
-While creating a function, pass a * before the parameter name while defining the function. The function accesses the arguments by processing them in the form of dictionary.
+While creating a function, pass a * before the parameter name while defining the 
+function. The function accesses the arguments by processing them in the form of
+ dictionary.
 
 Example:
 
@@ -104,7 +114,8 @@ Hello, James Buchanan Barnes
 
 return Statement
 
-The return statement is used to return the value of the expression back to the calling function.
+The return statement is used to return the value of the expression back to the calling
+ function.
 
 Example:
 
@@ -121,3 +132,11 @@ Hello, James Buchanan Barnes
 
 '''
 
+
+def averagenum(*a):
+    sum = 0
+    for i in a:
+        sum+=i
+        print("The average of num is : ",sum/(len(a)))
+
+print(averagenum(3,2,5))
