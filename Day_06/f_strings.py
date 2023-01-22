@@ -35,3 +35,9 @@ Output:
 60
 
 '''
+
+name = "Mohammad Ishak"
+profession = 'Student'
+nationality = 'Bangladeshi'
+
+print(f"Hi,I am {name}. I am a {profession} in B.sc in CSE . I feel proud to be {nationality}")
