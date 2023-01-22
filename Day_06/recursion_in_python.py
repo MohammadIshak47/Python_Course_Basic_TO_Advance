@@ -25,3 +25,42 @@ number:  7
 Factorial:  5040
 
 '''
+
+
+
+### Findout factorial number
+
+# def factorial(n):
+#     if (n ==0 or n==1):
+#         return 1
+#     else:
+#         return n*factorial(n-1)             
+
+# num =  int(input("Enter your desired num : "))
+
+# print(factorial(num))
+
+
+### write a programe to findout fibonacci sequence
+
+# Soluiton:
+
+def fibbonacci(n):
+    
+    if n == 0:
+        return 0
+    elif n == 1 :
+        return 1
+    else:
+        f1 = 0
+        f2 = 1
+        f3 = f1+f2
+        f2 = f3
+
+
+       
+    return f3   
+
+num = int(input("Enter your number : "))
+
+print(fibbonacci(num))
