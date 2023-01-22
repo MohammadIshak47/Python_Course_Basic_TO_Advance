@@ -185,21 +185,36 @@ print(timestamp)
 
 ## Solution:
 
-    
-'''
-
 import time 
 
 timestamp = time.strftime('%H:%M:%S ')
 
-print(timestamp)
+hour = int(time.strftime('%H'))
 
-timestamp = time.strftime('%H')
-print(timestamp)
-timestamp = time.strftime('%M')
-print(timestamp)
-timestamp = time.strftime('%S')
-print(timestamp)
+if 5<hour<12:
+    print("Good morning sir")
+elif 12<hour<15:
+    print("Good noon sir")
+elif 15<hour18:
+    print("Good Afternoon sir")
+elif 18<hour<19:
+    print("Good Evening sir")
+else:
+    print("Good night sir")        
+
+
+
+## Exercise_03:Create a program capable of displaying questions to the user like KBC.
+Use List data type to store the questions and their correct answers. Display the 
+final amount the person is taking home after playing the game.  
+
+## Solution:
+
+'''
+
+
+
+
 
 
    
