@@ -39,3 +39,9 @@ the full if-else syntax.
 
 '''
 
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+
+print(f"The value of {a} is greater than {b}") if a>b else print(f"{a} is equal to {b}") if a == b else print(f"The value of {b} is greater than {a}")
+
+
