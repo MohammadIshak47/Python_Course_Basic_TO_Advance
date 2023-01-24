@@ -60,3 +60,8 @@ module into another script. It allows you to reuse code from a script by importi
 it as a module into another script, without running the code in the original script.
 
 '''
+
+
+import ishak
+
+ishak.welcome()
