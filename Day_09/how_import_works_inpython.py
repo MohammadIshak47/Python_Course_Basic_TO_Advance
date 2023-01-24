@@ -87,3 +87,24 @@ contents of a module.
 
 '''
 
+# import math
+# fact = math.factorial(5)
+# print(fact)
+
+# from math import sqrt,pi
+# sq1 =  sqrt(3)
+# print(sq1)
+
+# import math as m ## to rename
+# fact = m.factorial(2)
+# print(fact)
+
+# from math import pi, sqrt as s 
+
+# sq1 = s(3)
+
+# print(sq1)
+
+
+# import math
+# print(dir(math)) ## to see the hidden functions of the module like math
