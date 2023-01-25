@@ -86,10 +86,24 @@ with open('myfile.txt', 'r') as f:
 
 '''
 
+# ### Reading a file
+# # f  = open('myfile.txt','w')
+# # print(f)
+# # f = open('myfile1.txt','r')
+# f = open('myfile1.txt','rb') ## open file as binary or pdf or jpg or jpeg mode.
+# text = f.read()
+# print(text)
+# f.close()
 
-f  = open('myfile.txt','w')
-# print(f)
 
-text = f.read()
-print(text)
-f.close()
+### Writing a file
+
+# f = open('myfile1.txt','a')
+
+# f.write('Bangladesh is our motherland')
+# f.close()
+
+## Alternative way 
+
+with open('myfile1.txt','a') as f:
+    f.write("I am inside with it\n")
