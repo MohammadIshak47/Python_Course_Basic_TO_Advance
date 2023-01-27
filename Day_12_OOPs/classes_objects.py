@@ -62,3 +62,43 @@ My name is Rohan and I'm 20 years old.
 
 '''
 
+# class Person:
+#     name = "Ishak"
+#     occupation = "Software Developer"
+#     networth = 10
+#     def info(self):
+#         print(f"{self.name} is a {self.occupation}")
+
+
+# a = Person()
+# b = Person()
+# c = Person()
+
+# a.name = "Rasel"
+# a.occupation = "Accountant"
+
+# b.name = "Faisal"
+# b.occupation = "HR"
+
+# # print(a.name, a.occupation)
+# a.info()
+# b.info()
+# c.info()
+
+
+
+# class Person:
+#     def __init__(self,fname,lname,age,gender):
+#         self.fname = fname
+#         self.lname = lname
+#         self.age = age
+#         self.gender = gender
+
+#     def full_name(self):
+#         return (f"Your full name is {self.fname} {self.lname}") 
+
+
+# person1 = Person('Mohammad', 'Ishak', 26, 'Male')
+
+# print(person1.full_name())
+
