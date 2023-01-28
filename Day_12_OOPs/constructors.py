@@ -58,16 +58,51 @@ animal Crab belongs to Crustaceans group
 
 '''
 
-class Phone:
-    def __init__(self,brand,model,ram,rom):
-        self.brand = brand
-        self.model =  model
-        self.ram = ram
-        self.rom = rom
-    def full_specification(self):
-        return (f"Your phone brand is {self.brand} and model is {self.model}")
+# class Phone:
+#     def __init__(self,brand,model,ram,rom):
+#         self.brand = brand
+#         self.model =  model
+#         self.ram = ram
+#         self.rom = rom
+#     def full_specification(self):
+#         return (f"Your phone brand is {self.brand} and model is {self.model}")
 
 
-phone1 = Phone('Samsung', 's23 ultra', '8GB', '4GB')
+# phone1 = Phone('Samsung', 's23 ultra', '8GB', '4GB')
 
-print(phone1.full_specification())
+# print(phone1.full_specification())
+
+class Dog:
+    def __init__(self,name,color,fav_food):
+        self.name = name
+        self.color = color
+        self.fav_food = fav_food
+
+    def dog_details(self):
+        return (f"My dog's name is {self.name} and color is {self.color}.It loves to eat {self.fav_food}")
+
+    def update_name(self,name):
+        self.name = name
+        
+    def update_color(self,color):
+        self.color = color    
+
+d1 = Dog('Tommy', 'brown', 'milk')
+d2 = Dog('Dunki', 'white', 'rice')
+
+print(d1.dog_details())
+
+d1.update_name('Bonny')
+d1.update_color('Red')
+
+print(d1.dog_details())
+
+print(d1.__dict__) ## it showing d1 object as dictionary
+print(dir(d1)) ## here dir showing all my builtin methods,constructors
+
+
+
+
+
+        
+
