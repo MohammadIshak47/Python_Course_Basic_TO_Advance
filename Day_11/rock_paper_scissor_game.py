@@ -9,3 +9,8 @@ Use proper functions to check for win.
 
 '''
 
+
+import random
+computer = random.randint(0, 2)
+user = int(input("Choose Snake ,Water or Gun. 0 for Snake ,1 for Water,-1 for Gun: "))
+
