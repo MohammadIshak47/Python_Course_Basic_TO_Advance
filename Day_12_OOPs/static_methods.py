@@ -19,3 +19,19 @@ without the need to create an instance of the class.
 
 '''
 
+class Math:
+    def __init__(self,num):
+        self.num = num
+    def addtonum(self,n):
+        self.num = self.num + n 
+
+    @staticmethod
+    def add(x,y):
+        return x+y
+
+
+a = Math(6)
+print(a.num)
+a.addtonum(7)
+print(a.num)
+print(Math.add(4, 10))
