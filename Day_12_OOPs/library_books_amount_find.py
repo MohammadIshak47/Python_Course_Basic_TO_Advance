@@ -10,19 +10,16 @@ doesnt persist the books after the program is stopped!
 
 class Library:
     no_of_books = 0
-    def __init__(self,name,price):
+    def __init__(self,name):
         self.name = name
-        self.price = price
+        
         Library.no_of_books+=1
 
     def books_info(self):
-        return (f"Your choosen books name is {self.name} and price is {self.price}tk.") 
-    def add_books(self,new_book):
-        self.new_book = new_book
-    def get_no_of_books(self):
-        self.no_of_books = no_of_books
-
-book1 = Library('Python3', 330)
+        return (f"Your choosen books name is {self.name} and No of Books is {self.no_of_books}") 
+    
+book1 = Library('Python3')
 print(book1.books_info())
 
-print(Library.get_no_of_books(self))
+book2 = Library('Machine Learning')
+print(book2.books_info())
