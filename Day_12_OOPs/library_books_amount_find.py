@@ -24,3 +24,5 @@ class Library:
 
 book1 = Library('Python3', 330)
 print(book1.books_info())
+
+print(Library.get_no_of_books(self))
